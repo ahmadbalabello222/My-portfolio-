@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    background-image: url(picccs/ahmad.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #353;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.note {
+    margin-top: 30px;
+    margin-left: 400px;
+    line-height: 30px; 
+}
+
+.photo {
+    border-radius: 300px;
+    width: 300px;
+    height: 255px;
+    float: left;
+}
+
+.secc {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.port {
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 350px;
+}
+
+.list {
+    float: right ;
+    
+}
+
+.wax {
+    color: red;
+    font-size: 23px;
+}
+
+.about {
+    
+}
+
+.frmm {
+    background-color: rgb(36, 31, 31);
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 30px;
+    height: 300px;
+}
+
+.nepa{
+    margin: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input {
+    width: 80%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.kkkk {
+    margin-left: 20px;
+    padding-top: 20px;
+}
